@@ -240,7 +240,8 @@ section #service{
     100%{
         color: yellow;
     }
-}</style>
+}
+</style>
 </head>
 <body>
     <nav class="navbar">
