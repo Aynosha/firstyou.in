@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FirstYou Service</title>
+</head>
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
 body{
@@ -242,7 +243,6 @@ section #service{
     }
 }
 </style>
-</head>
 <body>
     <nav class="navbar">
         <img src="./Style/img/favicon.ico" alt="Logo" class="Logo">
