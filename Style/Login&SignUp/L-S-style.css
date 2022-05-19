@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*Navbar*/
+
+.navbar{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    background-color: black;
+}
+
+.Logo{
+    width: 40px;
+    height: 40px;
+    padding: 10px 10px 0 30px;
+}
+
+.Logo-content{
+    font-weight: bold;
+    color: white;
+}
+
+.Logo-content p{
+    margin-top: 7px;
+    position: relative;
+    color: white;
+}
+
+.navbar-a{
+    text-align: center;
+    padding-left: 40%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.navbar-a a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    width: 271px;
+}
+
+.navbar-a a:nth-child(1){
+    width: 125px;
+}
+
+.navbar-a a:nth-child(2) {
+    text-decoration: underline;
+    font-weight: bold;
+}
+/* Bg form */
+
+#bg-form-two{
+    position: relative;
+    margin: auto;
+    background-color: green;
+    width: 600px;
+    top: 100px;
+    text-align: center;
+}
+
+#bg-form-two h1{
+    padding: 0;
+    margin: 0;
+}
+
+#bg-form-two h1, p{
+    text-align: center;
+}
+
+#bg-form-two input{
+    width: 500px;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#bg-form-two button{
+    margin: auto;
+    position: relative;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid yellow;
+    text-align: center;
+}
+
+#bg-form-two button a{
+    text-decoration: none;
+}
